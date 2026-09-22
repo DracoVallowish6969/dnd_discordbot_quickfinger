@@ -24,7 +24,6 @@ can make a character on their own.
 ```bash
 pip install -r requirements.txt
 ```
-
 ### 2. Create a Discord bot application
 1. Go to https://discord.com/developers/applications and click **New Application**.
 2. Go to the **Bot** tab, click **Add Bot**.
@@ -65,11 +64,5 @@ dnd-bot/
     ├── character.py     # /newcharacter wizard, homebrew builder, /sheet
     └── dice.py           # /roll, /check, /save
 ```
-
-## What's next (not built yet)
-- Leveling up (`/levelup`) and multiclassing
-- Equipping weapons/armor so AC and attack rolls factor them in automatically
-- Homebrew spellcasting support (currently only martial homebrew classes are
-  fully supported — casters need slot progression added)
 - Skill proficiency picking during character creation (skills exist in the
   data but aren't yet part of the wizard flow)
