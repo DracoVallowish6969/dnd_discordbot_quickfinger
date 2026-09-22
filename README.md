@@ -64,5 +64,4 @@ dnd-bot/
     ├── character.py     # /newcharacter wizard, homebrew builder, /sheet
     └── dice.py           # /roll, /check, /save
 ```
-- Skill proficiency picking during character creation (skills exist in the
-  data but aren't yet part of the wizard flow)
+
